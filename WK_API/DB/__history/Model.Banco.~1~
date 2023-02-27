@@ -1,0 +1,30 @@
+unit Model;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.PG,
+  FireDAC.Phys.PGDef, Data.DB, FireDAC.Comp.Client;
+
+type
+  TdmBanco = class(TDataModule)
+    Banco: TFDConnection;
+    FDPhysPgDriverLink: TFDPhysPgDriverLink;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmBanco: TdmBanco;
+
+implementation
+
+{%CLASSGROUP 'System.Classes.TPersistent'}
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,21 @@
+object dmBanco: TdmBanco
+  OldCreateOrder = False
+  Height = 226
+  Width = 191
+  object Banco: TFDConnection
+    Params.Strings = (
+      'Database=wk'
+      'User_Name=postgres'
+      'Password=123'
+      'Server=localhost'
+      'DriverID=PG')
+    LoginPrompt = False
+    Left = 80
+    Top = 56
+  end
+  object FDPhysPgDriverLink: TFDPhysPgDriverLink
+    VendorLib = 'C:\Program Files (x86)\PostgreSQL\psqlODBC\bin\libpq.dll'
+    Left = 80
+    Top = 120
+  end
+end
