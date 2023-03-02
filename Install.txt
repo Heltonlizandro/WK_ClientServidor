@@ -1,6 +1,7 @@
 executando o cmd na pasta raiz do projeto
 ------------------------------------------
 boss init
+   Baixe o boss no link: https://github.com/HashLoad/boss
 
 boss install horse
 
