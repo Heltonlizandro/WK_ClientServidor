@@ -1,1 +1,19 @@
 # WK_ClientServidor
+
+É necessário baixar o instalador do boss e deixar na pasta raiz do projeto.
+Caminho do boss: Baixe o boss no link: https://github.com/HashLoad/boss
+
+Obs.: Após baixar o boss, nos próximos passos não se faz necessário baixar nenhum arquivo.
+Pelo próprio boss, iremos instalar as dependências necessárias para o funcionamento do projeto.
+
+## executando o cmd na pasta raiz do projeto
+------------------------------------------
+boss init   
+
+boss install horse
+
+boss install jhonson
+
+boss install github.com/viniciussanchez/dataset-serialize
+
+boss install github.com/viniciussanchez/RESTRequest4Delphi
