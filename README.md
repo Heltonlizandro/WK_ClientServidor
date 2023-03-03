@@ -13,7 +13,7 @@ Obs.: Após baixar o boss, nos próximos passos não se faz necessário baixar n
 Pelo próprio boss, iremos instalar as dependências necessárias para o funcionamento do projeto.
 
 ## executando o cmd na pasta raiz do projeto
-------------------------------------------
+
 boss init   
 
 boss install horse
@@ -25,5 +25,6 @@ boss install github.com/viniciussanchez/dataset-serialize
 boss install github.com/viniciussanchez/RESTRequest4Delphi
 
 
-Obs.: Foi criado uma thread que busca as informações na API dos correios. Quando realizei os testes, em alguns momentos a API estava fora e não alimentava a tabela "ENDERECO_INTEGRACAO". Com isso, antes de achar que o sistema está com algum erro, faça um teste na API dos Correios. Basta colocar o link abaixo com o CEP desejado para teste:
+## Observação: 
+Foi criado uma thread que busca as informações na API dos correios. Quando realizei os testes, em alguns momentos a API estava fora e não alimentava a tabela "ENDERECO_INTEGRACAO". Com isso, antes de achar que o sistema está com algum erro, faça um teste na API dos Correios. Basta colocar o link abaixo com o CEP desejado para teste:
 viacep.com.br/ws/<INCLUIR_CEP_AQUI>/json/
